@@ -1,0 +1,38 @@
+{
+  "name": "custom-elements-manifest-esm-obj",
+  "version": "0.0.0",
+  "description": "An ESM version of `custom-elements-manifest`",
+  "type": "module",
+  "exports": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "author": "Mgenware (https://github.com/mgenware)",
+  "homepage": "https://github.com/mgenware/custom-elements-manifest-esm-obj",
+  "bugs": "https://github.com/mgenware/custom-elements-manifest-esm-obj/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgenware/custom-elements-manifest-esm-obj"
+  },
+  "license": "MIT",
+  "scripts": {
+    "r": "daizong",
+    "test": "daizong build"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.ts",
+    "dist/**/*.html",
+    "dist/**/*.css",
+    "dist/**/*.map"
+  ],
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "daizong": "^0.22.0",
+    "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "custom-elements-manifest": "^1.0.0"
+  }
+}
