@@ -1,6 +1,6 @@
 {
   "name": "custom-elements-manifest-esm-obj",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An ESM version of `custom-elements-manifest`",
   "type": "module",
   "exports": "./dist/main.js",
